@@ -36,8 +36,11 @@ const User = (props) => {
           <Card.Subtitle className="mb-2 text-muted">Shenk Users</Card.Subtitle>
           <Card.Title>{props.userInfo.name}</Card.Title>
           <Card.Text>
-            <p>Email: {props.userInfo.email}</p>
-            <p>Gen: {props.userInfo.gen}</p>
+            <br/>
+            Email: {props.userInfo.email}
+            <br/>
+            <br/>
+            Gen: {props.userInfo.gen}
           </Card.Text>
           <Card.Link href="#" onClick={handleShow}>Edit</Card.Link>
           <Card.Link href="#">
